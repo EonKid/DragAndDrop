@@ -21,6 +21,15 @@
     
     UIWindow *window = [[UIWindow alloc] initWithFrame:screenBounds];
     
+
+
+
+
+
+
+
+
+
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     

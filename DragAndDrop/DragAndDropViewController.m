@@ -21,6 +21,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+
+
+
+//added new images
+
+
     
     shoeImageView1 = [[UIImageView alloc]initWithFrame:CGRectMake(46,222, 51 , 51)];
     shoeImageView1.image = [UIImage imageNamed:@"shoe.png"];
@@ -46,7 +52,7 @@
         [[imageViewArray objectAtIndex:i]setUserInteractionEnabled:YES];
 
     }
-    
+    NSLog9("check %@",imageViewArray);
     
 }
 
